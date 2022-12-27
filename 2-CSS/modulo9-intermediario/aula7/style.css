@@ -1,0 +1,40 @@
+::selection {
+    color: aquamarine;
+    background: yellow;
+}
+
+p::first-line {
+    color: orangered;
+
+}
+
+p::first-letter {
+    color: blue;
+    font-size: 50px;
+}
+
+h1::before {
+    background: url(https://uxwing.com/wp-content/themes/uxwing/download/hand-gestures/good-icon.png);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    content: "";
+    margin-right: 10px;
+
+}
+
+h1::after {
+    background: url(https://uxwing.com/wp-content/themes/uxwing/download/hand-gestures/good-icon.png);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    content: "";
+    margin-left: 10px;
+
+}
+
+
+
+

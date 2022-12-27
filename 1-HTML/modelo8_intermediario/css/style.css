@@ -12,7 +12,7 @@ body {
 .header {
     background-color: grey;
     text-align: center;
-    padding: 50px 0;
+    padding: 0px 0;
     font-size: 40px;
 }
 
@@ -32,13 +32,14 @@ section nav ul {
 }
 
 section nav ul li {
-    background: linear-gradient(grey 30px, red 80px, blue 10% );
+    background-image: linear-gradient(90deg, #c1a339 10%, #87817f 90%);
     border-radius: 15px 0;
-    border: 1px solid red;
+    border: 1px solid grey;
     padding: 7px 0 7px 10px;
     font-size: 18px;
     font-weight: bold;
     margin: 5px 0px;
+    box-shadow: 0 0 15px black;
 
 }
 

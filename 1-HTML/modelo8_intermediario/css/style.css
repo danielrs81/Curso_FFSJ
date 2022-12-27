@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: sans-serif;
+}
+
+.header {
+    background-color: grey;
+    text-align: center;
+    padding: 50px 0;
+    font-size: 40px;
+}
+
+
+.container {
+    display: flex;
+}
+
+
+.navbar {
+    width: 30%;
+    background: #a3a3a3;
+    padding: 20px 5px;
+}
+section nav ul {
+    margin: 20px;
+}
+
+section nav ul li {
+    background: linear-gradient(grey 30px, red 80px, blue 10% );
+    border-radius: 15px 0;
+    border: 1px solid red;
+    padding: 7px 0 7px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0px;
+
+}
+
+section nav ul li a {
+    text-decoration: none;
+}
+
+
+.list-ponto {
+    list-style: none;
+
+}
+
+.content {
+    width: 70%;
+    background: #d4d4d4;
+    padding: 30px;
+}
+
+.footer {
+    background-color: grey;
+    text-align: center;
+    padding: 20px 0;
+}

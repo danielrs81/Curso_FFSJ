@@ -1,9 +1,9 @@
-:root {
-    --color-primary: rgb(230, 28, 28);
-    --color-secondary: rgb(49, 158, 6);
 
-    --spacing: 16px
+p {
+    color: var(--color-primary);
 }
+
+
 
 h1 {
     color: var(--color-primary);
@@ -13,11 +13,6 @@ h1 {
 h2 {
     color: var(--color-secondary);
     margin: var (--spacing);
-}
-
-
-p {
-    color: var(--color-primary);
 }
 
 

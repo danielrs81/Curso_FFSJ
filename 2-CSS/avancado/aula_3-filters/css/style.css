@@ -2,4 +2,9 @@
 @import "comuns.css";
 
 
+img {
+    filter: blur(10px);
+}
+
+
 

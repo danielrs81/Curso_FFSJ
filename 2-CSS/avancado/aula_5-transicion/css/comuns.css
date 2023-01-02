@@ -1,0 +1,23 @@
+
+
+p {
+    color: var(--color-primary);
+}
+
+
+
+h1 {
+    color: var(--color-primary);
+}
+
+
+h2 {
+    color: var(--color-secondary);
+    margin: var (--spacing);
+}
+
+
+button {
+    background: var(--color-primary);
+    color: white;
+}

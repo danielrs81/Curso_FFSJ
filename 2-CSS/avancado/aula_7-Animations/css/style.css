@@ -7,18 +7,37 @@ body {
     width: 300px;
     height: 300px;
     background-color: black;
-    transition-duration: 500ms;
-    transform-origin: 40% 40%;
     
+    animation-name: minhaAnimacao;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    animation-delay: 1000ms;
+    animation-timing-function: ease-in;
+    animation-direction: alternate-reverse;
+}
 
+@keyframes minhaAnimacao {
+    0% {
+        background-color: black;
+    }
+
+    33% {
+        
+    }
+
+    50% {
+        border: 30px solid green;
+        box-shadow: 0 0 120px black;
+    }
+
+    100% {
+        border: 0 solid green;
+        background-color: red;
+        transform: rotate(360deg);
+    }
 }
 
 
-.box:hover {
-    transform: rotate(360deg);
-    background-color: red;
-    box-shadow: 0 0 20px black;
-}
 
 
 

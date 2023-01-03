@@ -1,0 +1,64 @@
+:root {
+    --color-primary: #917758;
+    --color-secundary:
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home {
+    background-size: cover; /* para a imagem cobrir toda a parte do fundo*/
+    background-image: url(imagens/bg-home.jpg);
+    height: 100vh;  /*para ocupara 100% da tela */
+
+}
+
+.home .header {
+    padding: 30px;
+}
+
+.home .header .nav { /* centralizar o menu */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.home .header .nav ul {
+    display: flex;  /* deixar menu lado a lado */
+    list-style: none; /*retirar bolinhas da lista */
+
+}
+
+
+.home .header .nav ul li {
+    display: flex;
+    align-items: center;
+    margin: 0 10px; /*espaçamento do menu li */
+}
+
+.home .header .nav ul li a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 20px;
+
+}
+
+
+.home .header .nav ul li a:hover{
+    border-bottom: 1px solid var(--color-primary);
+    color: var(--color-primary);
+
+}

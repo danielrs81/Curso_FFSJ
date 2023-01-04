@@ -1,6 +1,7 @@
 :root {
     --color-primary: #917758;
-    --color-secundary: ;
+    --color-secundary: #3c2915;
+    --color-primary-light: #f5eee6;
 }
 
 
@@ -127,7 +128,7 @@ body {
 *********/
 
 .about {
-    height: 100vh;
+
     background-color: var(--color-primary);
 }
 
@@ -137,15 +138,16 @@ body {
 
 
 .about .timing {
-    width: 33%;
+    width: 29%;
     padding: 20px;
     background-image: url(imagens/brush-big.jpg);
-
+    position: relative;
+    top: -50px;
 }
 
 
 .about .timing .overlay {
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.644);
     text-align: center;
     padding: 40px 20px;
 }
@@ -197,5 +199,165 @@ body {
 }
 
 .about .experience {
-    width: 66%;
+    width: 70%;
+    color: white;
+    margin-left: 7%;
+    margin-top: 100px;
 }
+
+
+.about .experience h2 {
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.about .experience h2::after {
+    display: block;
+    content: '';
+    width: 100px;
+    height: 3px;
+    background-color: #a38f78;
+    margin: 20px 0;
+}
+
+.about .experience .text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about .experience .text p {
+    margin-bottom: 20px;
+    font-weight: 100;
+    font-size: 17px;
+}
+
+
+/***********
+* SERVICES
+***********/
+
+.services {
+    padding: 100px 0;
+    text-align: center;
+    background-color: var(--color-primary-light);
+}
+
+
+.services h2 {
+    color: var(--color-secundary);
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+
+.services .boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+
+.services .box {
+    border: 3px solid var(--color-primary);
+    padding: 50px 40px;
+    margin: 30px;
+}
+
+
+.services .box h4 {
+    color: var(--color-secundary);
+    margin-top: 30px;
+}
+
+
+.services .box p {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+
+
+/**************
+* APPOUNTMENT
+***************/
+
+.appointment {
+    padding: 100px 0;
+    background-color: var(--color-primary);
+    height: 100vh;
+    background-image: url(imagens/chair-ic.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 300px;
+}
+
+
+.appointment h2 {
+    color: var(--color-primary-light);
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.appointment img {
+    margin: 0 auto;     
+    display: block;   
+}
+
+
+.appointment form {
+    margin-top: 80px;
+}
+
+
+.appointment .personal-data {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+
+.appointment .input-wrapper {
+    width: 100%;
+    margin-right: 50px;
+}
+
+
+.appointment .input-wrapper:last-of-type {
+    margin-right: 0;
+}
+
+
+.appointment label {
+    display: block;
+    color: var(--color-primary-light);
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+
+.appointment .personal-data input,
+.appointment .personal-data select,
+.appointment textarea {
+    padding: 10px;
+    outline: none;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+}
+
+
+.appointment button {
+    background-color: var(--color-secundary);
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+

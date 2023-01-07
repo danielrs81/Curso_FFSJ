@@ -19,6 +19,7 @@ body {
 .container {
     width: 1170px;
     margin: 0 auto;
+    /* width: 1000px;  -- MUDAR DEPOIS SE NECESSÁRIO */
 }
 
 
@@ -351,6 +352,11 @@ body {
 }
 
 
+.appointment textarea {
+    height: 100px;
+}
+
+
 .appointment button {
     background-color: var(--color-secundary);
     color: white;
@@ -361,3 +367,100 @@ body {
     font-weight: bold;
 }
 
+
+/*********
+* GALLERY
+**********/
+
+.gallery {
+    padding: 100px 0;
+    background-color: var(--color-primary-light);
+    background-size: 300px;
+}
+
+
+.gallery h2 {
+    color: var(--color-secundary);
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.gallery img {
+    margin: 0 auto;     
+    display: block;   
+}
+
+.gallery .gallery-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;  /* para colocar as fotos dentro do container */
+    width: 930px;
+    margin: 50px auto;
+    height: 100vh;
+
+}
+
+.gallery .gallery-wrapper div {
+    border: 10px solid var(--color-primary);
+    margin: 6px;
+    width: 33%;
+}
+
+.gallery .gallery-wrapper div img {
+    width: 100%;
+}
+
+
+/****************
+* LOCATION
+*****************/
+
+.location {
+    height: 100vh;  /* só para visualizar a tela, depois remover */
+    padding:  100px 0;
+    background: url(imagens/bg-location.jpg);
+    background-size: cover;
+
+
+    
+}
+
+.location .head {
+    display: flex;
+    justify-content: space-between;
+    background-color: #191919;
+    padding: 40px;
+    width: 100%;
+}
+
+
+.location .head .info {
+    display: flex;
+    align-items: center;
+}
+
+
+.location .head .info .icon {
+    margin-right: 10px;
+}
+
+.location .head .info .text span {
+    display: block;
+    font-size: 13px;
+
+
+}
+
+
+.location .head .info .text span:first-child {
+    color: silver;
+
+}
+
+
+.location .head .info .text span:last-child {
+    color: white;
+}

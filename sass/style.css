@@ -26,9 +26,11 @@ body {
 .container .box h2 {
   font-size: 22px;
   margin: 10px 20px 30px 20px;
+  font-family: "Arial";
 }
 .container .box p {
   font-size: 18px;
+  font-family: "Verdana";
 }
 .container .box p.hidden {
   display: none;

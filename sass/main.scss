@@ -1,13 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-color: black;
-    font-family: sans-serif;
-}
+@import 'base';
+@import 'varables'
 
 .container {
     display: flex;
@@ -23,16 +15,18 @@ body {
         padding: 20px;
 
         &.active {
-            background-color: red;
+            background-color: $color-secondary;
         }
 
         h2 {
             font-size: 22px;
             margin: 10px 20px 30px 20px;
+            font-family: $font-primary;
         }
 
         p {
             font-size: 18px;
+            font-family: $font-secondary;
 
             &.hidden {
                 display: none;

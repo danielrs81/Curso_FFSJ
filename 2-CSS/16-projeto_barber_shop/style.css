@@ -32,6 +32,7 @@ body {
     background-size: cover; /* para a imagem cobrir toda a parte do fundo*/
     background-image: url(imagens/bg-home.jpg);
     height: 100vh;  /*para ocupara 100% da tela */
+    background-attachment: fixed;  /* efeito parallax */
 }
 
 .home .header {
@@ -419,7 +420,7 @@ body {
 *****************/
 
 .location {
-    height: 100vh;  /* só para visualizar a tela, depois remover */
+    /* height: 100vh;   só para visualizar a tela, depois remover */
     padding:  100px 0;
     background: url(imagens/bg-location.jpg);
     background-size: cover;
@@ -430,9 +431,12 @@ body {
 
 .location .head {
     display: flex;
-    justify-content: space-between;
-    background-color: #191919;
+    /*justify-content: space-between;
     padding: 40px;
+    */
+    justify-content: space-around;
+    padding: 40px 0px;
+    background-color: #191919;
     width: 100%;
 }
 
@@ -444,7 +448,16 @@ body {
 
 
 .location .head .info .icon {
-    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    border: 1px solid var(--color-primary);
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+
 }
 
 .location .head .info .text span {
@@ -464,3 +477,29 @@ body {
 .location .head .info .text span:last-child {
     color: white;
 }
+
+
+.location .map {
+    width: 100%;
+}
+
+
+.location .map iframe {
+    width: 100%;
+}
+
+
+/**********
+* LOCATION
+**********/
+
+.footer {
+    text-align: center;
+    padding: 40px;
+    background-color: #191919;
+    color: white;
+    font-size: 12px;
+}
+
+
+

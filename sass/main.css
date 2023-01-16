@@ -9,6 +9,15 @@ body {
   font-family: sans-serif;
 }
 
+.container .box .warning, .container .box .danger, .container .box .success {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 1px 1px 2px black;
+  color: white;
+}
+
 .container {
   display: flex;
   justify-content: space-around;
@@ -48,4 +57,14 @@ body {
 }
 .container .box a:hover + p.hidden {
   display: block;
+}
+.container .box .success {
+  background-color: green;
+}
+.container .box .danger {
+  background-color: red;
+}
+.container .box .warning {
+  color: black;
+  background-color: yellow;
 }/*# sourceMappingURL=main.css.map */

@@ -1,6 +1,7 @@
 @import 'variables';
 @import 'base';
-@import 'mixins'
+@import 'mixins';
+@import 'extends';
 
 
 
@@ -50,6 +51,23 @@
                }
             }
 
+        }
+
+        .success {
+            @extend %box-alert;
+            @include bg-effect(success);
+        }
+
+        
+        .danger {
+            @extend %box-alert;
+            @include bg-effect(danger);
+        }
+
+        
+        .warning {
+            @extend %box-alert;
+            @include bg-effect(warning);
         }
 
     }

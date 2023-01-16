@@ -1,3 +1,8 @@
+@import 'variables';
+@import 'base';
+@import 'mixins'
+
+
 
 
 .container {
@@ -10,7 +15,7 @@
         background-color: white;
         color: black;
         border-radius: 8px;
-        padding: 250px;
+        padding: 25px;
 
         &.active {
             background-color: $color-secondary;
@@ -29,6 +34,9 @@
             &.hidden {
                 display: none;
             }
+        }
+        ul {
+            @include reset-list();
         }
 
         a {

@@ -18,7 +18,7 @@ body {
   background-color: white;
   color: black;
   border-radius: 8px;
-  padding: 20px;
+  padding: 25px;
 }
 .container .box.active {
   background-color: red;
@@ -35,6 +35,11 @@ body {
 .container .box p.hidden {
   display: none;
 }
+.container .box ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 .container .box a {
   color: green;
 }
@@ -43,4 +48,4 @@ body {
 }
 .container .box a:hover + p.hidden {
   display: block;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=main.css.map */

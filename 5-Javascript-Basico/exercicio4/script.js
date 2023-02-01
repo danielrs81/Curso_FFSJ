@@ -1,9 +1,17 @@
 function clicar() {
-    nome = prompt('Digite o seu nome:')
-    idade = prompt('Digite sua idade')
+    let nome = prompt('Digite o seu nome:')
+    let idade = prompt('Digite sua idade')
 
 
     let idadeMinima = 18
+
+    if (nome === '') {
+        window.alert('Preencha os campos corretamente')
+        
+    } else if (idade === '') {
+        window.alert('Preencha os campos corretamente')
+    }
+    
 
     if (idade >= idadeMinima && nome === 'Tomas' || nome === 'tomas') {
         document.querySelector('#linha1').innerHTML = `Olá ${nome}, com ${idade} anos você é MAIOR de idade!`

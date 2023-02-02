@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: absolute;
+    left: 0%;
+    text-align: center;
+}
+  
+/*apply css properties to container class*/
+  
+.container {
+    justify-content: center;
+    align-items: center;
+    display: block;
+    height: 100%;
+    text-align: center;
+    
+    margin: 5px;*/
+}
+
+
+  
+/*apply css properties to button tag*/
+  
+button {
+    width: 90px;
+    height: 60px;
+    font-size: 30px;
+    background-color: green;
+    color: honeydew;
+    border-radius: 8px;
+}
+  
+/*apply hover effect to button tag*/
+  
+button:hover {
+    background-color: greenyellow;
+    color: grey;
+}
+  
+
+.reset {
+    width: 130px;
+    height: 60px;
+    font-size: 30px;
+    background-color: rgb(255, 238, 0);
+    color: rgb(0, 0, 0);
+    
+}
+
+.reset:hover {
+    background-color: rgb(199, 149, 56);
+    color: rgb(22, 22, 22);
+}
+
+/*apply css properties to h2 tag*/
+  
+h2 {
+    color: black;
+    margin: 0 50px;
+    font-size: 45px;
+}
+  
+/*apply css properties to h1 tag*/
+  
+h1 {
+    font-size: 35px;
+    color: green;
+    text-align: center;
+    padding: 20px;
+}

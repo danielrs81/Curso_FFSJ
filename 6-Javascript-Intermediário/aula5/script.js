@@ -11,7 +11,7 @@ botaoTeste.addEventListener('click',function(){
 
 
 
-/*
+
 let botaoTeste = document.querySelector('#botaoTeste')
 
 let contador = 0
@@ -35,4 +35,3 @@ botaoTeste.addEventListener('click', cliqueBotao)
 // onclick
 // botaoTeste.onclick = cliqueBotao
 
-/*

@@ -7,7 +7,7 @@ let count = 0
 let intervalo = setInterval(function(){
   count++
   contador.innerText = count
-}, 1000)
+}, 500)
 
 
 let botaoPausar = document.querySelector('#botaoPausar')

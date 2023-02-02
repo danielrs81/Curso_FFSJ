@@ -20,6 +20,11 @@ function decremento() {
     document.querySelector("#contador").innerHTML = data;
 }
 
+function reset() {
+  data = 0
+  document.querySelector('#contador').innerHTML = data;
+}
+
 
 
 

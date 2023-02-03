@@ -1,9 +1,14 @@
 /* Objeto {} principal da aplicação */
 const Main = {
 
+    task: [],
+
     init: function () {
         this.cacheSelectors()
         this.bindEvents()
+        this.getStoraged()
+        this.buildTasks()
+
     },
 
     cacheSelectors: function() {
@@ -28,8 +33,16 @@ const Main = {
         })
     },
 
+     
+    getStoraged: function() {
+        const tasks = localStorage.getItem('tasks')
 
+        this.tasks = JSON.parse(tasks)
+    },
 
+    buildTasks: function() {
+
+    },
 
 
     /* Funções relacionadas a eventos */
@@ -65,6 +78,12 @@ const Main = {
 
                 this.cacheSelectors()
                 this.bindEvents()
+
+                const obj = [{
+                    task: value
+                }]
+
+                localStorage.setItem('tasks', JSON.stringify(obj))
             }
         },
 

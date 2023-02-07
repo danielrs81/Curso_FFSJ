@@ -11,15 +11,21 @@ function exibirNaTela(dados) {
     console.log('exibir na tela', dados)
 }
 
+function exibirErro() {
+    console.log('Ops, deu erro!')
+}
+
+
 const botaoCarregar = document.querySelector('#botaoCarregar')
 
 botaoCarregar.onclick = () => {
-    return carregarFotos()
+    return buscar('https://jsonplaceholder.typicode.com/photos', 'GET')
         .then(exibirNaTela)
-        .catch()
+        .catch(exibirErro)
 }
 
-function carregarFotos() {
+
+function buscar(url, method) {
     return new Promise ( (resolve, reject) => {
         const xhttp = new XMLHttpRequest()
 
@@ -35,7 +41,7 @@ function carregarFotos() {
             }
         }
 
-        xhttp.open('GET', 'https://jsonplaceholder.typicode.com/photoss', true)
+        xhttp.open(method,url, true)
 
         xhttp.send()
     })

@@ -1,0 +1,35 @@
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+
+    /* flex-flow: row wrap-reverse; *** short code */
+
+    background-color: silver;
+}
+
+
+.caixa {
+    width: 100px;
+    height: 100px;
+}
+
+.red {
+    background-color: red;
+}
+
+
+.blue {
+    background-color: blue;
+}
+
+
+.yeloow {
+    background-color: yellow;
+}
+
+
+.green {
+    background-color: green;
+}

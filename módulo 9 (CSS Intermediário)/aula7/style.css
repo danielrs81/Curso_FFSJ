@@ -1,0 +1,43 @@
+::selection {
+    color: pink;
+    background-color: brown;
+    
+}
+
+
+p::first-line {
+    color: orange;
+}
+
+
+p::first-letter {
+    color: orange;
+    font-size: 40px;
+}
+
+
+/* ---- ADICIONAR ALGO ANTES ---- */
+h1::before {
+    background: url(https://cdn-icons-png.flaticon.com/512/1311/1311423.png);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    content: '';
+    margin-right: 10px;
+}
+
+
+/* ---- ADICIONAR ALGO DEPOIS ---- */
+h1::after {
+    background: url(https://cdn-icons-png.flaticon.com/512/1311/1311423.png);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    content: '';
+    margin-left: 10px;
+}
+
+
+

@@ -1,0 +1,158 @@
+/*
+font-family: 'Architects Daughter', cursive;
+font-family: 'Cabin', sans-serif;
+font-family: 'Carter One', cursive;
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'Oswald', sans-serif;
+font-family: 'Raleway', sans-serif;
+
+*/
+
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+
+body, html {
+   height:  100%;
+}
+
+
+body {
+   font-family: 'Raleway', sans-serif;
+   margin: 5px;
+   background: rgb(172,32,32);
+   background: linear-gradient(180deg, rgba(172,32,32,1) 0%, rgba(255,0,0,1) 50%, rgba(224,132,3,0.7987570028011204) 100%);
+ 
+   background-attachment: fixed;
+}
+
+
+.profile {
+text-align: center;
+margin: 15px auto;
+
+}
+
+
+.profile img {
+   width: 130px;
+   border: 3px solid rgb(248, 149, 149); 
+   border-radius: 50%;
+   box-shadow: 0 0 25px rgb(255, 255, 255);
+}
+
+
+.profile h1 {
+   font-family: 'Oswald', sans-serif;
+   font-weight: 700;
+   font-size: 40px;
+   color: rgb(241, 216, 216);
+   text-shadow: 3px 3px 0px rgb(5, 0, 0);
+
+}
+
+
+.profile h2 {
+   font-family: 'Oswald', sans-serif;
+   font-weight: 500;
+   margin-top: -8px;
+   margin-bottom: 10px;
+   color: rgb(241, 216, 216);
+}
+
+
+.profile h3 {
+   font-size: 20px;
+   color: rgb(241, 216, 216);
+}
+
+
+.social-links {
+   margin: 15px 5px 20px 8px;
+}
+
+.social-links ul {
+   display: flex;
+   justify-content: space-around;
+   list-style: none;
+}
+
+
+.social-links a {
+   text-decoration: none;
+}
+
+
+.social-links img {
+   width: 40px;
+}
+
+
+.link-list li {
+   margin: 20px 0;
+}
+
+
+
+.link-list a {
+   display: block;
+   background-color: aliceblue;
+   border: 2px solid rgb(252, 188, 188);
+   box-shadow: 5px 5px 5px rgb(0, 0, 0);
+   font-size: 25px;
+   color: black;
+   text-decoration: none;
+   margin: 0 12px;
+   border-radius: 8px;
+   padding: 10px 10px;
+   font-weight: 900;
+}
+
+
+.link-list span {
+   display: flex;
+   font-size: 20px;
+   font-weight: 100;
+
+}
+
+.news h3 {
+   text-align: center;
+   margin: 25px 0px 15px 0px;
+}
+
+
+.news ul {
+   display: flex;
+   justify-content: center;
+   list-style: none;
+   margin: 0 auto;
+}
+
+
+.news li {
+   margin: 0 auto;
+}
+
+
+.news a {
+   background-color: white;
+}
+
+
+.news img {
+   display:flex;
+   width: 150px;
+   height: 150px;
+   margin-bottom: 20px;
+   padding: 15px;
+   border: 1px solid white;
+   border-radius: 10px;
+}
+
+
+
+
